@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    font-family: "outfit", sans-serif;
+}
+
+.card {
+    width: 736px;
+    height: 1708px;
+    margin: auto;
+    background-color: white;
+    border-radius: 24px;
+}
+
+#mainimg {
+    width: 656px;
+    height: 300px;
+    border-radius: 12px;
+    margin: 40px;
+}
+
+.text {
+    margin: 0 40px 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #854632;
+    font-weight: 400;
+}
+
+hr {
+    border-top: 1px solid#E3DDD7;
+}
+
+.title {
+    font-family: "Young Serif", serif;
+}
+
+li,
+p,
+th,
+td {
+    line-height: 150%;
+}
+
+li {
+    margin: 6px 0;
+}
+
+li::marker {
+    color: #7A284E;
+}
+
+.summary {
+    margin: 24px 0 0;
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    height: 180px;
+    border-radius: 12px;
+    margin: 32px 0;
+}
+
+h3 {
+    color: #7A284E;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.prep ul {
+    margin-top: 16px;
+    padding-left: 20px;
+}
+
+
+.prep-text {
+    padding: 28px;
+}
+
+.ingredients {
+    margin: 32px 0;
+}
+
+.ingredients ul {
+    padding-left: 25px;
+}
+
+ol>li::marker {
+    font-weight: bold;
+}
