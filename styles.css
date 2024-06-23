@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     font-family: "outfit", sans-serif;
     color: #5F564D;
+    margin: 0;
 }
 
 .card {
@@ -71,7 +72,7 @@ li::marker {
 }
 
 .summary {
-    margin: 24px 0 0;
+    margin: 22px 0 0;
 }
 
 .prep {
@@ -119,4 +120,38 @@ td {
     width: 50%;
     color: #854632;
     padding-left: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    .card {
+        border-radius: 0;
+        width: 375px;
+        height: 2043px;
+        margin: auto;
+    }
+
+    #mainimg {
+        width: 375px;
+        height: 171px;
+        border-radius: 0;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .content {
+        margin: 35px 32px;
+    }
+
+    h1 {
+        font-size: 36px;
+        ;
+    }
+
+    .prep {
+        height: 196px;
+    }
+
+    .prep-text {
+        padding: 24px;
+    }
 }
