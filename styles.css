@@ -8,7 +8,7 @@ body {
 .card {
     width: 736px;
     height: 1708px;
-    margin: auto;
+    margin: 123px auto;
     background-color: white;
     border-radius: 24px;
 }
@@ -20,12 +20,11 @@ body {
     margin: 40px;
 }
 
-.text {
+.content {
     margin: 0 40px 40px;
 }
 
 h1 {
-    margin: 0;
     font-size: 40px;
     color: #312E2C;
 }
@@ -34,22 +33,31 @@ h2 {
     font-size: 28px;
     color: #854632;
     font-weight: 400;
+}
+
+h3 {
+    color: #7A284E;
+    font-size: 20px;
     margin: 0;
 }
 
-hr {
-    border-top: 1px solid#E3DDD7;
+.text {
+    line-height: 150%;
 }
 
 .title {
     font-family: "Young Serif", serif;
+    margin: 0;
 }
 
-li,
-p,
-th,
-td {
-    line-height: 150%;
+hr,
+tr {
+    border-bottom: 1px solid #E3DDD7;
+    border-top: none;
+}
+
+tr:last-of-type {
+    border: none;
 }
 
 li {
@@ -59,6 +67,7 @@ li {
 
 li::marker {
     color: #7A284E;
+    font-weight: bold;
 }
 
 .summary {
@@ -72,45 +81,26 @@ li::marker {
     margin: 32px 0;
 }
 
-h3 {
-    color: #7A284E;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0;
-}
-
 .prep ul {
     margin-top: 16px;
     padding-left: 20px;
 }
 
-
 .prep-text {
     padding: 28px;
 }
 
-.ingredients {
-    margin: 32px 0;
-}
-
-.ingredients ul {
+.ingredients ul,
+.instructions ol {
     padding-left: 25px;
-}
-
-ol>li::marker {
-    font-weight: bold;
 }
 
 .bold {
     font-weight: 600;
 }
 
-.instructions {
-    margin: 32px 0;
-}
-
-.instructions ol {
-    padding-left: 25px;
+.cont {
+    margin: 30px 0;
 }
 
 table {
@@ -118,27 +108,15 @@ table {
     border-collapse: collapse;
 }
 
-tr {
-
-    border-bottom: 1px solid #E3DDD7;
-
-}
-
-tr:last-of-type {
-    border: none;
-}
-
-
 th {
     width: 50%;
     font-weight: 400;
     text-align: left;
-    padding: 8px 35px;
+    padding: 7px 35px;
 }
 
 td {
     width: 50%;
-    font-weight: 600;
     color: #854632;
     padding-left: 30px;
 }
